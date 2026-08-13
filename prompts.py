@@ -41,8 +41,6 @@ followup_prompt = ChatPromptTemplate.from_template(
     Based on the following user's question, suggest 3 short follow-up questions they might want to ask next.
     Rules:
     - Return ONLY the 3 questions.
-    - Put each question on a separate line.
-    - Do NOT write any introduction.
     Question : {question}
     """
 )

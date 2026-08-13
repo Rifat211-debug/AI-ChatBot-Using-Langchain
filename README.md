@@ -5,7 +5,7 @@ A simple AI chatbot built with LangChain, ChatGroq, and Streamlit.
 
 ## Project Overview
 
-This project demonstrates how LangChain can be used to build a chatbot with different response pipelines.
+This project shows how LangChain can be used to build a chatbot with different chains.
 
 The chatbot can handle:
 
@@ -13,7 +13,7 @@ The chatbot can handle:
 - Mathematics questions
 - General questions
 
-It also generates follow-up questions for the user.
+It also generates 3 follow-up questions for the user that they might ask next.
 
 ## Features
 
@@ -22,7 +22,7 @@ It also generates follow-up questions for the user.
 - Programming Assistant
 - Mathematics Assistant
 - General Assistant
-- RunnableBranch for question routing
+- RunnableBranch for response based on category
 - RunnableParallel for multiple outputs
 - Pydantic Structured Output
 - Follow-up question generation
